@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+
+html {   background-color: #8be467;}
+body{
+    margin: 0px;
+    padding: 0px;}   
+    
+    
+
+#container2 {
+
+            width: 20%;
+            background-color: #8be467;;
+            float: right;   margin-top: 4.1%;
+            
+            margin-right: 8px;
+            max-height: 720px; 
+         }
+      
+   
+#header {
+   
+    font-family: roboto; arial;
+   
+    height: 50px;
+    background-image: url(/img/béka.jpg); text-align: center;
+}
+   
+
+#menu {
+    
+    height: 32px;
+    background-color: #8be467;
+    width: 33%; 
+    float: left;
+ }  
+    
+
+
+
+.button {
+    
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    background-color: rgb(38, 168, 70);;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    margin-left: 14px;
+    cursor: pointer;
+   width: 95%; }
+
+    .button:hover {
+        color: rgb(3, 128, 10);
+        background-color: rgb(143, 185, 195);
+    }
+    
+    h1 {
+        margin: 0%;
+        font-family: roboto;
+        color: rgb(2, 20, 31);
+        font-weight: 40%;
+        font-size: 300%;  }
+    
+
+        th, td {
+            border-bottom: 3px solid #ddd; }
+            
+    
+        th {background-color:  #93c08d; 
+        }
+
+   
+
+    tr:hover { background-color: rgb(184, 203, 238) ;  }
+
+     
+
+    #table-menu {
+        text-align: left;
+        width: 79%;
+        border: solid 2px #b6b08d;
+        margin-left: 1px;
+     }
+    
+    
+    
+    .container input{
+        display: block;
+        margin: 5px;
+        
+    }
+  
+      #comment{
+          display: block;
+          width: 300px;
+          margin-top: 5px;
+          margin-left: 5px;
+         margin-bottom: 6px;
+      }
+      fieldset{
+          display: inline-block;
+         margin: 40%;
+         margin-top: 5px;
+         margin-bottom: 5px;
+          
+      }

@@ -1,0 +1,33 @@
+
+.login-div {
+    padding: 15px;
+    border:solid 1px #c0c0c0; 
+    box-shadow: 0 0 2px #777777;
+    margin: 18% 45% 18% 45%;
+   display: inline-block;
+
+
+}
+.login-div input{
+    display: block;
+    margin-bottom: 7px;
+   
+}
+.login-div input[type="email"] {
+    border: solid 1px }
+ .login-div input[type="password"] {
+    border: solid 1px 
+}
+.login-div button:hover{
+   box-shadow: 1 1 3px;
+   background-color:  #ddd3d3;
+}
+.login-div input:focus{
+    box-shadow: 1 1 3px;
+    background-color: #ddd3d3;
+    border: none;  }
+    
+ 
+  
+ 
+        

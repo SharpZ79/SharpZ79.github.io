@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendelés</title>
+    <link rel="stylesheet" href="css/style.css">
+     
+</head>
+
+<body>
+    
+        <div id="header"><h1>Levelibéka Étterem</h1>  </div>
+        <div id="menu"><a href="Ajánlataink.html" class="button">Ajánlataink</a></div>
+        <div id="menu"><a href="Kapcsolat.html" class="button">Kapcsolat</a></div>
+        <div id="menu"><a href="Rendelés.html" class="button">Rendelés</a></div>
+        <body>
+            <fieldset>
+            <div class="container">
+                         
+                    <legend>Személyes adatok</legend>
+                    <div >
+                    <label for="name"> Név:*</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div>
+                    <label for="email"> Email cím:*</label>
+                    <input id="email" name="email" type="text" required>
+                </div>
+                <div>
+                    <label for="address">Címe:*</label>
+                    <input id="address" name="address" type="text" required>
+                </div>
+                <div>
+                    <label for="comment">Megjegyzés:</label>
+                    <textarea name="comment" id="comment" rows="7" ></textarea>
+            
+                </div>
+                
+                
+        
+            <legend>Extra feltét</legend>
+        
+                <div>
+                    <form>
+                    <input type="radio" name="extra" for="nothing"  value="100">
+                    <label for="nothing">Nem kérek </label>
+                    
+                    
+                </div>
+                <div>
+                    <input type="radio" name="extra" f for="Hagyma" value="100">
+                    <label for="Hagyma">Hagyma</label>
+                    
+                </div>
+                <div>          
+                    <input type="radio" name="extra" for="Sajt" value="100">
+                    <label for="Sajt">Sajt</label>
+                </div>
+                <div>
+                    <input type="radio" name="extra" for="Hús" value="100">
+                    <label for="Hús">Hús </label>
+                    
+                </div>
+                <div>
+                    <input type="radio" name="extra" for="Saláta" value="100">
+                    <label for="Saláta">Saláta</label>
+                    
+                </div>
+                <div>
+                    <label for="sauce">Szósz:</label>
+                    <select name="sauce" id="sauce">
+                        <option value="100">Chilis</option>
+                        <option value="100">Majonézes</option>         
+                    </select>
+                </div>
+                <div><label for="quantity">Mennyiség</label>
+                <input id="quantity" name="quantity" type=number min="1" max="5" value="0"></div>
+                <div><input type="button" value="Rendelés leadása"> Ár: <span>800</span>Ft.</div>
+            </form> 
+            </div>
+        </fieldset>
+        </body>
+        </html>
+
+
+</body>
+
+</html>
